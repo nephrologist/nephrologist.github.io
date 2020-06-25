@@ -6,10 +6,19 @@
     <description>Recent content in Post on memo</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 25 Jun 2020 13:13:22 +0900</lastBuildDate>
+    <lastBuildDate>Fri, 26 Jun 2020 07:26:20 +0900</lastBuildDate>
     
 	<atom:link href="http:///nephrologist.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Hello</title>
+      <link>http:///nephrologist.github.io/post/hello/</link>
+      <pubDate>Fri, 26 Jun 2020 07:26:20 +0900</pubDate>
+      
+      <guid>http:///nephrologist.github.io/post/hello/</guid>
+      <description>Hello, world!!</description>
+    </item>
     
     <item>
       <title>Test</title>
