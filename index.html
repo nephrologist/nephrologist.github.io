@@ -1,0 +1,344 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  <meta charset="utf-8">
+<title>memo</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+  <link rel="apple-touch-icon" sizes="180x180" href="/nephrologist.github.io/favicon/apple-touch-icon.png?v=1">
+  <link rel="icon" type="image/png" sizes="32x32" href="/nephrologist.github.io/favicon/favicon-32x32.png?v=1">
+  <link rel="icon" type="image/png" sizes="16x16" href="/nephrologist.github.io/favicon/favicon-16x16.png?v=1">
+  <link rel="manifest" href="/nephrologist.github.io/favicon/site.webmanifest?v=1">
+  
+    <link rel="mask-icon" href="/nephrologist.github.io/favicon/safari-pinned-tab.svg?v=1" color="#ffffff">
+    <link rel="shortcut icon" href="/nephrologist.github.io/favicon/favicon.ico?v=1">
+    <meta name="msapplication-config" content="/nephrologist.github.io/favicon/browserconfig.xml?v=1">
+  
+  <meta name="msapplication-TileColor" content="#ffffff">
+  <meta name="theme-color" content="#ffffff">
+
+<meta name="generator" content="Hugo 0.72.0" /><meta itemprop="name" content="memo">
+<meta itemprop="description" content=""><meta property="og:title" content="memo" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http:///nephrologist.github.io/" />
+<meta property="og:updated_time" content="2020-06-25T13:13:22+09:00" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="memo"/>
+<meta name="twitter:description" content=""/>
+<meta name="twitter:site" content="@Toshio256"/>
+<link rel="stylesheet" href="/nephrologist.github.io/css/bundle.min.759e3848ea529eef056dab665b241e2af569e601ab80f68f8d4a4d002a155dd4.css" integrity="sha256-dZ44SOpSnu8FbatmWyQeKvVp5gGrgPaPjUpNACoVXdQ="><link rel="stylesheet" href="/nephrologist.github.io/css/add-on.css">
+</head>
+
+  <body>
+    
+
+  <div id="theme-message" style="background-color:#3c3b3b;color:#f4f4f4;margin:auto auto;padding:.25em 2em;width:75%;">
+    <p style="text-align:center;">This message, related to the development of the theme, only displays on the
+      <code>localhost</code> homepage to notify you of any important theme changes.</p>
+      <hr>
+      <h5 style="color:#f4f4f4;text-align:center;"><i class="fas fa-exclamation-triangle"></i>Version 1.1.0 - May 18, 2020<i class="fas fa-exclamation-triangle"></i></h5>
+    <p>With this version, the theme has fully implemented <strong>static search</strong> using
+<code>lunr.js</code>. That being said, a few modifications were necessary to implement this
+feature.</p>
+<p>To utilize this, or future version of <em>Hugo Future Imperfect Slim</em>, please make
+the following changes:</p>
+<ol>
+<li>Add the following to your <code>config.toml</code> before <code>[params]</code>:</li>
+</ol>
+<pre><code>...
+disableLanguages = [&quot;&quot;]
+
+[outputs]
+    home = [&quot;html&quot;, &quot;json&quot;]
+
+[params]
+...
+</code></pre><ol start="2">
+<li>
+<p>Remove the underscore from all <code>about</code> and <code>contact</code> page file names:
+<code>_index.md --&gt; index.md</code></p>
+</li>
+<li>
+<p>Add <code>layout = &quot;about&quot;</code> or <code>layout = &quot;contact&quot;</code> to all of the files you just
+just adjusted the file names for.</p>
+</li>
+</ol>
+<p>While I realize this is inconvenient, I hope that it is worth it to you in the
+long run. Thanks for using the theme, and feel free to submit issues as needed.</p>
+
+    <div style="text-align:center;">
+      <button onclick="removeBox()" class="button" style="color:#f4f4f4;margin-bottom:1em;">Close Notification Until Next Update</button>
+    </div>
+    <script>
+      if (window.location.href.indexOf('localhost:') < 1 || window.localStorage.getItem('HFIS-version') == '1.1.0') {
+        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+      }
+      function removeBox() {
+        window.localStorage.setItem('HFIS-version', '1.1.0');
+        document.getElementsByTagName("body")[0].removeChild(document.getElementById("theme-message"));
+      }
+    </script>
+  </div>
+<header id="site-header">
+  <nav id="site-nav">
+    <h1 class="nav-title">
+      <a href="/nephrologist.github.io/" class="nav">
+        
+          memo
+        
+      </a>
+    </h1>
+    <menu id="site-nav-menu" class="flyout-menu menu">
+      
+        
+          
+          
+            <a href="/nephrologist.github.io/nephrologist.github.io/" class="nav link"><i class='fa fa-home'></i> Home</a>
+          
+        
+      
+        
+          
+          
+            <a href="/nephrologist.github.io/nephrologist.github.io/about/" class="nav link"><i class='far fa-id-card'></i> About</a>
+          
+        
+      
+        
+          
+          
+            <a href="/nephrologist.github.io/nephrologist.github.io/blog/" class="nav link"><i class='far fa-newspaper'></i> Blog</a>
+          
+        
+      
+        
+          
+          
+            <a href="/nephrologist.github.io/nephrologist.github.io/categories/" class="nav link"><i class='fas fa-sitemap'></i> Categories</a>
+          
+        
+      
+      <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt">&nbsp;</i>Share</a>
+      <a href="#search-input" class="nav search-toggle"><i class="fas fa-search">&nbsp;</i>Search</a>
+    </menu>
+    <a href="#search-input" class="nav search-toggle"><i class="fas fa-search fa-2x">&nbsp;</i></a>
+    <a href="#share-menu" class="nav share-toggle"><i class="fas fa-share-alt fa-2x">&nbsp;</i></a>
+    
+    <a href="#site-nav" class="nav nav-toggle"><i class="fas fa-bars fa-2x"></i></a>
+  </nav>
+  <menu id="search" class="menu"><input id="search-input" class="search-input menu"></input><div id="search-results" class="search-results menu"></div></menu>
+  
+  
+    <menu id="share-menu" class="flyout-menu menu">
+      <h1>Share Post</h1>
+      
+
+
+
+
+  
+    
+    <a href="//twitter.com/share?text=memo&amp;url=http%3a%2f%2f%2fnephrologist.github.io%2f" target="_blank" rel="noopener" class="nav share-btn twitter">
+        <i class="fab fa-twitter"></i><p>&nbsp;Twitter</p>
+      </a>
+  
+
+
+    </menu>
+  
+</header>
+
+    <div id="wrapper">
+      <section id="site-intro" >
+  
+  <header>
+    <h1>Nephrologist's memo</h1>
+  </header>
+  <main>
+    <p>AtCoderの記録と英語学習記録</p>
+  </main>
+  
+    <footer>
+      <ul class="socnet-icons">
+        
+
+        <li><a href="//github.com/nephrologist" target="_blank" rel="noopener" title="GitHub" class="fab fa-github"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<li><a href="//twitter.com/Toshio256" target="_blank" rel="noopener" title="Twitter" class="fab fa-twitter"></a></li>
+
+
+
+
+
+
+
+
+
+
+
+
+
+      </ul>
+    </footer>
+  
+</section>
+
+      <main id="site-main">
+        
+  
+  
+    <article class="post">
+  <header>
+  <div class="title">
+    
+      <h2><a href="/nephrologist.github.io/post/test/">Test</a></h2>
+    
+    
+  </div>
+  <div class="meta">
+    <time class="published" datetime="2020-06-25 13:13:22 &#43;0900 JST">
+      June 25, 2020
+    </time>
+    <span class="author"></span>
+    
+      <p>1 minute read</p>
+    
+  </div>
+</header>
+
+  
+
+  
+  <p>This is a test.
+<!-- raw HTML omitted -->This line is blue.<!-- raw HTML omitted --></p>
+  <footer>
+    <a href="/nephrologist.github.io/post/test/" class="button big">Read more</a>
+    <ul class="stats">
+  <li class="categories">
+    <ul>
+    
+      <li>None</li>
+    
+    </ul>
+  </li>
+  <li class="tags">
+    <ul>
+    
+      <li>None</li>
+    
+    </ul>
+  </li>
+</ul>
+
+  </footer>
+</article>
+
+  
+  
+<div class="pagination">
+  
+  
+</div>
+
+
+      </main>
+      <section id="site-sidebar">
+  
+    <section id="recent-posts">
+      <header>
+        <h1>Recent posts</h1>
+      </header>
+      
+      <article class="mini-post">
+        <section>
+          
+
+        </section>
+        <header>
+          <h2><a href="/nephrologist.github.io/post/test/">Test</a></h2>
+          <time class="published" datetime="">June 25, 2020</time>
+        </header>
+      </article>
+      
+      
+    </section>
+  
+
+  
+    
+      <section id="categories">
+        <header>
+          <h1><a href="/nephrologist.github.io/categories">Categories</a></h1>
+        </header>
+        <ul>
+          
+            
+          
+          
+          </li>
+        </ul>
+      </section>
+    
+  
+
+  
+    <section id="mini-bio">
+      <header>
+        <h1>About</h1>
+      </header>
+      <p>AtCoderの記録と英語学習記録</p>
+      <footer>
+        <a href="/nephrologist.github.io/about" class="button">Learn More</a>
+      </footer>
+    </section>
+  
+</section>
+
+      <footer id="site-footer">
+  
+  <p class="copyright">
+    
+      &copy; 2020
+      
+        memo
+      
+    . <br>
+    Theme: <a href='https://github.com/pacollins/hugo-future-imperfect-slim' target='_blank' rel='noopener'>Hugo Future Imperfect Slim</a><br>A <a href='https://html5up.net/future-imperfect' target='_blank' rel='noopener'>HTML5 UP port</a> | Powered by <a href='https://gohugo.io/' title='0.72.0' target='_blank' rel='noopener'>Hugo</a>
+  </p>
+</footer>
+<a id="back-to-top" href="#" class="fas fa-arrow-up fa-2x"></a>
+
+      <script src="/nephrologist.github.io/js/highlight.js"></script>
+    <script>hljs.initHighlightingOnLoad();</script><script src="/nephrologist.github.io/js/bundle.min.c8f4dccd3d5a4f550215d8557c79388e48bd195d8bfd544e5cbe1800b9111b80.js" integrity="sha256-yPTczT1aT1UCFdhVfHk4jki9GV2L/VROXL4YALkRG4A="></script>
+    <script src="/nephrologist.github.io/js/add-on.js"></script>
+    </div>
+  </body>
+</html>
