@@ -3,31 +3,35 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http:///nephrologist.github.io/post/hello/</loc>
+    <loc>https://nephrologits.github.io/hello/</loc>
     <lastmod>2020-06-26T07:26:20+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http:///nephrologist.github.io/</loc>
+    <loc>https://nephrologits.github.io/post/</loc>
     <lastmod>2020-06-26T07:26:20+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http:///nephrologist.github.io/post/</loc>
+    <loc>https://nephrologits.github.io/</loc>
     <lastmod>2020-06-26T07:26:20+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http:///nephrologist.github.io/post/test/</loc>
+    <loc>https://nephrologits.github.io/test/</loc>
     <lastmod>2020-06-25T13:13:22+09:00</lastmod>
   </url>
   
   <url>
-    <loc>http:///nephrologist.github.io/categories/</loc>
+    <loc>https://nephrologits.github.io/archives/</loc>
   </url>
   
   <url>
-    <loc>http:///nephrologist.github.io/tags/</loc>
+    <loc>https://nephrologits.github.io/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://nephrologits.github.io/tags/</loc>
   </url>
   
 </urlset>
