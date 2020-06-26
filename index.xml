@@ -2,30 +2,30 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>めもらんだむ</title>
-    <link>https://nephrologits.github.io/</link>
+    <link>https://nephrologist.github.io/</link>
     <description>Recent content on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 26 Jun 2020 07:26:20 +0900</lastBuildDate>
     
-	<atom:link href="https://nephrologits.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nephrologist.github.io/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
       <title>Hello</title>
-      <link>https://nephrologits.github.io/hello/</link>
+      <link>https://nephrologist.github.io/hello/</link>
       <pubDate>Fri, 26 Jun 2020 07:26:20 +0900</pubDate>
       
-      <guid>https://nephrologits.github.io/hello/</guid>
+      <guid>https://nephrologist.github.io/hello/</guid>
       <description>Hello, world!!</description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://nephrologits.github.io/test/</link>
+      <link>https://nephrologist.github.io/test/</link>
       <pubDate>Thu, 25 Jun 2020 13:13:22 +0900</pubDate>
       
-      <guid>https://nephrologits.github.io/test/</guid>
+      <guid>https://nephrologist.github.io/test/</guid>
       <description>Test This is a test. This line is blue.This line might be a bigger one.  one two three        one  s = input() if s.lower() == s: print(&amp;quot;a&amp;quot;) else: print(&amp;quot;A&amp;quot;) </description>
     </item>
     
