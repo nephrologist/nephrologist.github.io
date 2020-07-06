@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1">
+    <title>ABC173 - めもらんだむ</title>
+
+    <style type="text/css">
+        img.wp-smiley,
+        img.emoji {
+            display: inline !important;
+            border: none !important;
+            box-shadow: none !important;
+            height: 1em !important;
+            width: 1em !important;
+            margin: 0 .07em !important;
+            vertical-align: -0.1em !important;
+            background: none !important;
+            padding: 0 !important;
+        }
+    </style>
+    <link rel='stylesheet' href='https://nephrologist.github.io/css/style.css' type='text/css' media='all' />
+    <link rel='stylesheet' href='https://nephrologist.github.io/css/custom.css' type='text/css' media='all' />
+        
+</head>
+    <body class="two-column">
+        <a href="#content">Skip to content</a>
+<div class="wrapper">
+    <header role="banner" class="banner widgets columns-1">
+        <a href="/" rel="home">
+            <h1 class="site">めもらんだむ</h1>
+            <p></p>
+        </a>
+        <nav role="navigation" aria-label="Primary Navigation">
+
+            <ul class="menu">
+                <li class="menu-item "><a class="menu__link" href="/about/">ABOUT</a></li>
+            </ul>
+            <select onChange="location.href=value;">
+                <option value="/about/" class="menu-item menu-item-type-custom menu-item-object-custom" >ABOUT</option>
+            </select>
+        </nav>
+    </header>
+
+    <br>
+    <div style="width: 100%; max-height: 100px; text-align: center;">
+       
+</div>
+
+    <div class="breadcrumbs">
+        
+    </div>
+        <div id="content" class="content">
+
+<main role="main">
+    <article role="article" class="post type-post format-standard hentry">
+        <header class="post-header">
+            <h1>ABC173</h1>
+            <div class="post-details">
+                <a rel="bookmark">
+                    <time datetime="2020-07-06T76:131:296">2020-07-06</time>
+                </a>
+				
+<span style="float: right;">
+    <div id="fb-root" style="height: 100%;"></div>
+    
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v3.2"></script>
+    
+    <div class="fb-share-button" data-href="https://nephrologist.github.io/abc173/" data-layout="button_count" data-size="small">
+        <a target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3a%2f%2fnephrologist.github.io%2fabc173%2f" class="fb-xfbml-parse-ignore">Share</a>
+    </div>
+    &nbsp;
+    <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-text="ABC173" data-url="https://nephrologist.github.io/abc173/" data-show-count="false">Tweet</a>
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    &nbsp;
+    
+</span>
+
+            </div>
+        </header>
+
+        <div class="post-content">
+            <h2 id="成績">成績</h2>
+<p>ABCDの4完で1475位<br>
+R1255→1268<br>
+<del>画像がまだうまく入れられない</del><br>
+<del>折りたたみもうまく表示されない</del></p>
+<!-- raw HTML omitted -->
+<p><a href="https://atcoder.jp/contests/abc173">contest page</a></p>
+<h2 id="感想反省">感想&amp;反省</h2>
+<h3 id="a---payment">A - Payment</h3>
+<p>やるだけの問題。
+もう一度書きます。やるだけの問題です。</p>
+<p>…2000円きっかりで3000円だして1000円もらうプログラムを書いて1WAを頂きました。猛省。</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python:A.py" data-lang="python:A.py">n <span style="color:#f92672">=</span> int(input())
+maisu <span style="color:#f92672">=</span> n <span style="color:#f92672">//</span> <span style="color:#ae81ff">1000</span>
+<span style="color:#66d9ef">if</span> n <span style="color:#f92672">%</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>:
+    <span style="color:#66d9ef">print</span>((maisu <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">-</span> n)
+<span style="color:#66d9ef">else</span>:
+    <span style="color:#66d9ef">print</span>(<span style="color:#ae81ff">0</span>)
+</code></pre></div><!-- raw HTML omitted -->
+<h3 id="b---judge-status-summary">B - Judge Status Summary</h3>
+<p>いつものBよりはやや面倒だな、と思いつつもサクッとACしました。
+文字列はコピペして<code>[]</code>でくくったほうが早い気がしました。</p>
+<p>countの仕方は色々有ると思いますが、自分は<code>defaultdict</code>を使いました。
+<code>defaultdict</code>は初期値の設定された辞書型の構造、と認識しています。
+引数に<code>int</code>を使い、出てくるたびに+1すれば大丈夫。
+出てこなかったものも0が返ってくるので使いやすいですね。</p>
+<p><code>format</code>関数を使おうかとよぎるものの、調べる時間の無駄と思い<code>str</code>でつなげました。</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> collections <span style="color:#f92672">import</span> defaultdict
+
+jisho <span style="color:#f92672">=</span> defaultdict(int)
+n <span style="color:#f92672">=</span> int(input())
+<span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(n):
+    s <span style="color:#f92672">=</span> input()
+    jisho[s] <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+
+kotae <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;AC&#34;</span>, <span style="color:#e6db74">&#34;WA&#34;</span>, <span style="color:#e6db74">&#34;TLE&#34;</span>, <span style="color:#e6db74">&#34;RE&#34;</span>]
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">4</span>):
+    k <span style="color:#f92672">=</span> kotae[i]
+    <span style="color:#66d9ef">print</span>(str(k) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; x &#34;</span> <span style="color:#f92672">+</span> str(jisho[k]))
+
+</code></pre></div><!-- raw HTML omitted -->
+<h3 id="c---h-and-v">C - H and V</h3>
+<p>最近のCは難しいな、と思いつつも書いてあることをやるだけ。</p>
+<p>2の累乗の全探索はbit演算を用いる方法もありますが、自分はpythonなので<code>itertools</code>を使う方法が好きです。</p>
+<p>格子の入力が文字なので<code>map(int,input().split())</code>をしないように注意。</p>
+<p>全探索の範囲を2**hではなく、hにしてしまったため微ロス。</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> itertools <span style="color:#f92672">import</span> product
+
+h, w, k <span style="color:#f92672">=</span> map(int, input()<span style="color:#f92672">.</span>split())
+
+h_kumiawase <span style="color:#f92672">=</span> list(product([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>], repeat<span style="color:#f92672">=</span>h))
+w_kumiawase <span style="color:#f92672">=</span> list(product([<span style="color:#ae81ff">1</span>, <span style="color:#ae81ff">0</span>], repeat<span style="color:#f92672">=</span>w))
+
+C <span style="color:#f92672">=</span> [list(input()) <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(h)]
+<span style="color:#75715e"># C[h][w]</span>
+
+
+<span style="color:#66d9ef">def</span> <span style="color:#a6e22e">calc</span>(h_kumi, w_kumi):
+    cnt <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+    <span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(h):
+        <span style="color:#66d9ef">if</span> h_kumi[i] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:
+            <span style="color:#66d9ef">continue</span>
+        <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(w):
+            <span style="color:#66d9ef">if</span> w_kumi[j] <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:
+                <span style="color:#66d9ef">continue</span>
+            <span style="color:#66d9ef">if</span> C[i][j] <span style="color:#f92672">==</span> <span style="color:#e6db74">&#34;.&#34;</span>:
+                <span style="color:#66d9ef">continue</span>
+            cnt <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+    <span style="color:#66d9ef">return</span> cnt
+
+
+ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;&lt;</span> h):
+    h_kumi <span style="color:#f92672">=</span> h_kumiawase[i]
+    <span style="color:#66d9ef">for</span> j <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">1</span> <span style="color:#f92672">&lt;&lt;</span> w):
+        w_kumi <span style="color:#f92672">=</span> w_kumiawase[j]
+
+        <span style="color:#66d9ef">if</span> calc(h_kumi, w_kumi) <span style="color:#f92672">==</span> k:
+            ans <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
+
+<span style="color:#66d9ef">print</span>(ans)
+</code></pre></div><!-- raw HTML omitted -->
+<h3 id="d---chat-in-a-circle">D - Chat in a Circle</h3>
+<p>難しい。
+取り敢えずn=4,5,6あたりを手元のiPadで書き出す→どうやら上から2個ずつ貪欲にとれるように配置ができそう、というお気持ちになる(未証明)。
+→提出。AC</p>
+<p>コード自体は短く書けたので満足。</p>
+<!-- raw HTML omitted -->
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">n <span style="color:#f92672">=</span> int(input())
+A <span style="color:#f92672">=</span> list(map(int, input()<span style="color:#f92672">.</span>split()))
+A<span style="color:#f92672">.</span>sort(reverse<span style="color:#f92672">=</span>True)
+ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> i <span style="color:#f92672">in</span> range(n <span style="color:#f92672">//</span> <span style="color:#ae81ff">2</span>):
+    ans <span style="color:#f92672">+=</span> A[i] <span style="color:#f92672">*</span> <span style="color:#ae81ff">2</span>
+<span style="color:#66d9ef">if</span> n <span style="color:#f92672">%</span> <span style="color:#ae81ff">2</span> <span style="color:#f92672">==</span> <span style="color:#ae81ff">1</span>:
+    ans <span style="color:#f92672">+=</span> A[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>]
+ans <span style="color:#f92672">-=</span> A[<span style="color:#ae81ff">0</span>]
+<span style="color:#66d9ef">print</span>(ans)
+</code></pre></div><!-- raw HTML omitted -->
+<h3 id="e---multiplication-4">E - Multiplication 4</h3>
+<p>執筆時点で未AC。
+初手DPを考えるも制約条件から不可能と判断。
+DP[i個目まで見て][j子選んだ時][今まで負の数を奇数回or偶数回]だとO(N*N*2)で不可能。</p>
+<p>サンプルを見て答えが負の数になることに気づき、0もありうると判断。
+実装方針は答えが負になる条件をAiが負の個数、Aiが正の個数、kなどから求める。</p>
+<ul>
+<li>負になるときは絶対値が最小となるように選ぶ。</li>
+<li>同様に途中で0を選ばざるを得ない時は答えは0。</li>
+<li>正になるときは絶対値が最大となるように選ぶ。</li>
+</ul>
+<p>と考える。
+解説PDFにある2つずつ積を取る方法に近かったが、最後1WAが取れず、敗退。</p>
+<h3 id="f---intervals-on-tree">F - Intervals on Tree</h3>
+<p>解説AC。
+久しぶりのグラフ問題なので可能ならば解きたい、と思う。
+木であることを確認。(辺の数はN-1、閉路なし)
+区間に対して計算を行うタイプの問題。(順番を変えればうまくできるかな？)
+連結成分の数を答えるらしい…です。( ﾟдﾟ)</p>
+<p>ここで思考停止、連結成分をうまく扱う構造を自分はあまり知らないです。
+連結と言われるとUnion-Findが浮かぶが、今回の問題ではN=2*(10**5)なので厳しそう。</p>
+<p>&ldquo;Fだし、諦めよう&quot;となりました。</p>
+<p>コンテスト後にTwitterを見ていると、木構造だと連結成分の数がかんたんに求まるようでした(閉路がなければ簡単に求められる)。
+この方法は見たことがあったので、覚えていなかった自分が悪いです。悲しいです。
+Fの解説については<a href="https://maspypy.com/atcoder-%e5%8f%82%e5%8a%a0%e6%84%9f%e6%83%b3-2020-07-05abc-173#toc7">maspyさんのHP</a>が素晴らしいのでそちらをご参照ください。</p>
+<!-- raw HTML omitted -->
+<p>解説AC</p>
+<div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">n <span style="color:#f92672">=</span> int(input())
+graph <span style="color:#f92672">=</span> [[] <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(n)]
+
+edge_sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
+<span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(n <span style="color:#f92672">-</span> <span style="color:#ae81ff">1</span>):
+    u, v <span style="color:#f92672">=</span> map(int, input()<span style="color:#f92672">.</span>split())
+    <span style="color:#66d9ef">if</span> u <span style="color:#f92672">&gt;</span> v:
+        u, v <span style="color:#f92672">=</span> v, u
+    edge_sum <span style="color:#f92672">+=</span> u <span style="color:#f92672">*</span> (n <span style="color:#f92672">-</span> v <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>)
+
+dot_sum <span style="color:#f92672">=</span> n <span style="color:#f92672">*</span> (n <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">*</span> (n <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span>) <span style="color:#f92672">//</span> <span style="color:#ae81ff">6</span>
+<span style="color:#66d9ef">print</span>(dot_sum <span style="color:#f92672">-</span> edge_sum)
+</code></pre></div><!-- raw HTML omitted -->
+
+        </div>
+
+
+
+        <footer class="post-footer">
+                
+                
+                
+                <span class="post-categories">
+                        <a href="https://nephrologist.github.io/categories/python/">python</a>&emsp;
+                        
+                </span>
+                
+        
+                
+                
+                
+                <span class="post-tags">
+                        <a href="https://nephrologist.github.io/tags/contest/">contest</a>&emsp;
+                        
+                </span>
+                
+        </footer>
+        
+<table cellspacing="15" style="width:100%; border: none;">
+    <tr>
+        <td style="text-align: center; border: none; padding: 0px;">
+        </td>
+        <td style="text-align: center; border: none; padding: 0px;">
+        </td>
+    </tr>
+</table>
+
+        
+	
+	
+
+    </article>
+
+    
+    <nav class="navigation post-navigation" role="navigation">
+        <div class="nav-links">
+            <div class="nav-previous">
+                
+            </div>
+            <div class="nav-next">
+                
+            </div>
+        </div>
+    </nav>
+    <section>
+        
+    </section>
+    
+
+</main>
+
+
+        <div class="sidebar1 widgets columns-1">
+
+    <aside>
+    
+</aside>
+    <aside class="widget widget_categories">
+        <h2>Categories</h2>
+        <ul class="widget__list"><li class="cat-item cat-item-2">
+                <a href="https://nephrologist.github.io/categories/python/">python (1)</a>
+            </li>
+        </ul>
+    </aside>
+
+    <aside class="widget widget_tag_cloud">
+        <h2>Tags</h2>
+        <div class="tagcloud"><a class="tag-cloud-link" href="https://nephrologist.github.io/tags/contest/" title="contest" style="font-size: 12pt;">contest</a>&emsp;
+        </div>
+    </aside>
+
+    <aside class="widget widget_recent_entries">
+        <h2>Recent Posts</h2>
+        <ul>
+            <li>
+                <a href="/abc173/">ABC173</a>
+            </li>
+        </ul>
+    </aside>
+
+    <aside class="widget widget_archive">
+        <h2>Archives</h2>
+        <ul>
+        </ul>
+    </aside>
+
+</div>
+        </div>
+        </div>
+<footer role="contentinfo" class="document-footer contentinfo widgets columns-1">
+
+    <aside class="widget widget_text">
+        <div class="textwidget">
+            <p>© めもらんだむ / Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/tosi29/inkblotty" target="_blank">Inkblotty</a></p>
+        </div>
+    </aside>
+</footer>
+</div>
+
+    </body>
+</html>

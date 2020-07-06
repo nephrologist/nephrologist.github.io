@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>めもらんだむ</title>
-    <link>https://nephrologist.github.io/</link>
-    <description>Recent content on めもらんだむ</description>
+    <title>python on めもらんだむ</title>
+    <link>https://nephrologist.github.io/categories/python/</link>
+    <description>Recent content in python on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 06 Jul 2020 01:31:29 +0900</lastBuildDate>
     
-	<atom:link href="https://nephrologist.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://nephrologist.github.io/categories/python/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -18,15 +18,6 @@
       
       <guid>https://nephrologist.github.io/abc173/</guid>
       <description>成績 ABCDの4完で1475位 R1255→1268 画像がまだうまく入れられない 折りたたみもうまく表示されない contest page 感想&amp;amp;反省 A - Payment やるだけの問題。 もう一度書きます。やるだけの問題です。 …2000円きっかりで3000円だして1000円もらうプログラムを書いて1WAを頂きました。猛省。 n = int(input()) maisu = n</description>
-    </item>
-    
-    <item>
-      <title>About</title>
-      <link>https://nephrologist.github.io/about/</link>
-      <pubDate>Fri, 26 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://nephrologist.github.io/about/</guid>
-      <description>Biography Name: nephrologsit Competitive Programing AtCoder: nephrologist yukicoder: nephrologist English Scores TOEFL: about 90 IELTS: not yet If you have any comments, please use twitter(@Toshio256).</description>
     </item>
     
   </channel>
