@@ -87,9 +87,9 @@
             <h2 id="問題e---multiplication-4">問題E - Multiplication 4</h2>
 <blockquote>
 <p>(概略)
-長さnの配列Aが与えられて、その中から要素をk個選んだときに積を最大化したい。そのようなときの積の値をmod=10**9+7で割った値を求めよ。</p>
+長さnの配列Aが与えられて、その中から要素をk個選んだときに積を最大化したい。そのようなときの積の値を$mod=10^9+7$で割った値を求めよ。</p>
 </blockquote>
-<p>$$1\leqq k,n\leqq 2×10^5, A_i \leqq 10^9$$</p>
+<p>$$1\leqq k,n\leqq 2×10^5, |A_i| \leqq 10^9$$</p>
 <p><a href="https://atcoder.jp/contests/abc173/tasks/abc173_e">問題URL</a></p>
 <h3 id="解説">解説</h3>
 <h4 id="本番の思考">本番の思考</h4>
@@ -122,11 +122,11 @@
 <li>idxを1つずらすときに考慮すべき条件
 <ul>
 <li>idxが右端に来ていないかどうか ⇔ <strong>idx = 配列の長さ</strong>かどうか</li>
-<li>尺取法に通じる者あり(苦手)</li>
+<li>尺取法に通じるところあり(苦手)</li>
 </ul>
 </li>
 </ul>
-<details><summary>コード</summary><div>
+<details><summary>コードはこちら</summary><div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">n, k <span style="color:#f92672">=</span> map(int, input()<span style="color:#f92672">.</span>split())
 A <span style="color:#f92672">=</span> list(map(int, input()<span style="color:#f92672">.</span>split()))
 
