@@ -35,10 +35,14 @@
         <nav role="navigation" aria-label="Primary Navigation">
 
             <ul class="menu">
+                <li class="menu-item  current-menu-item current_page_item "><a class="menu__link" href="/">HOME</a></li>
                 <li class="menu-item "><a class="menu__link" href="/about/">ABOUT</a></li>
+                <li class="menu-item "><a class="menu__link" href="/tags/">TAGS</a></li>
             </ul>
             <select onChange="location.href=value;">
+                <option value="/" class="menu-item menu-item-type-custom menu-item-object-custom"  selected="selected" >HOME</option>
                 <option value="/about/" class="menu-item menu-item-type-custom menu-item-object-custom" >ABOUT</option>
+                <option value="/tags/" class="menu-item menu-item-type-custom menu-item-object-custom" >TAGS</option>
             </select>
         </nav>
     </header>
@@ -64,34 +68,6 @@
   </div>
   <div>
     
-    
-        <article class="list__item post clearfix">
-	<div class="list__content clearfix">
-		<header class="post-header">
-				<h2><a href="/hoge/" rel="bookmark">Hoge</a></h2>
-				<div class="post-details">
-				<a rel="bookmark">
-					<time datetime="2020-07-06T09:44:17">2020-07-06</time>
-				</a>
-				</div>
-		</header>
-
-		<div class="post-excerpt"><p>
-			hogehoge
-		</p></div>
-	</div>
-	
-	<footer class="post-footer">
-		
-		
-		
-
-		
-		
-		
-	</footer>
-
-</article>
     
         <article class="list__item post clearfix">
 	<div class="list__content clearfix">
@@ -170,9 +146,6 @@
     <aside class="widget widget_recent_entries">
         <h2>Recent Posts</h2>
         <ul>
-            <li>
-                <a href="/hoge/">Hoge</a>
-            </li>
             <li>
                 <a href="/abc173/">ABC173</a>
             </li>

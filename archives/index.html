@@ -34,10 +34,14 @@
         <nav role="navigation" aria-label="Primary Navigation">
 
             <ul class="menu">
+                <li class="menu-item "><a class="menu__link" href="/">HOME</a></li>
                 <li class="menu-item "><a class="menu__link" href="/about/">ABOUT</a></li>
+                <li class="menu-item "><a class="menu__link" href="/tags/">TAGS</a></li>
             </ul>
             <select onChange="location.href=value;">
+                <option value="/" class="menu-item menu-item-type-custom menu-item-object-custom" >HOME</option>
                 <option value="/about/" class="menu-item menu-item-type-custom menu-item-object-custom" >ABOUT</option>
+                <option value="/tags/" class="menu-item menu-item-type-custom menu-item-object-custom" >TAGS</option>
             </select>
         </nav>
     </header>
@@ -101,9 +105,6 @@
     <aside class="widget widget_recent_entries">
         <h2>Recent Posts</h2>
         <ul>
-            <li>
-                <a href="/hoge/">Hoge</a>
-            </li>
             <li>
                 <a href="/abc173/">ABC173</a>
             </li>
