@@ -6,10 +6,19 @@
     <description>Recent content in Posts on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2020 01:31:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 06 Jul 2020 20:20:39 +0900</lastBuildDate>
     
 	<atom:link href="https://nephrologist.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>ABC173E</title>
+      <link>https://nephrologist.github.io/abc173e/</link>
+      <pubDate>Mon, 06 Jul 2020 20:20:39 +0900</pubDate>
+      
+      <guid>https://nephrologist.github.io/abc173e/</guid>
+      <description>問題 問題URL 解説 本番の思考 一見すると大きい方から貪欲にk個取れば終わりそう。 0が入ると0になってしまう 積は負にもなりうる 負の場合は絶対値が小さい方が大きいことに注意 負の数は2つペアにすれば正の数として扱える 本番ではこの方針を採用して2つずつ貪欲に取っていった。 この場合、正の数は2つペアじゃなくて1</description>
+    </item>
     
     <item>
       <title>ABC173</title>
@@ -18,6 +27,15 @@
       
       <guid>https://nephrologist.github.io/abc173/</guid>
       <description>成績 ABCDの4完で1475位 R1255→1268 画像がまだうまく入れられない 折りたたみもうまく表示されない contest page 感想&amp;amp;反省 A - Payment やるだけの問題。 もう一度書きます。やるだけの問題です。 …2000円きっかりで3000円だして1000円もらうプログラムを書いて1WAを頂きました。猛省。 n = int(input()) maisu = n</description>
+    </item>
+    
+    <item>
+      <title>Check_point</title>
+      <link>https://nephrologist.github.io/check_point/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://nephrologist.github.io/check_point/</guid>
+      <description>コンテスト前確認事項 iPadの用意 飲み物の用意 visual studio codeのpython環境が生きているか 提出用ファイルの作成 参加登録 確認事項 typoしていないか &amp;ldquo;+=&amp;rdquo;, &amp;ldquo;==&amp;rdquo;, &amp;ldquo;=&amp;quot;は、やりがち カギカッコはちゃんと閉じているか 制約確認しているか nが小さければ全探索etc</description>
     </item>
     
   </channel>
