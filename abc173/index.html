@@ -89,21 +89,21 @@
 R1255→1268<br>
 <del>画像がまだうまく入れられない</del><br>
 <del>折りたたみもうまく表示されない</del></p>
-<!-- raw HTML omitted -->
+<!-- ![](/スクリーンショット 2020-07-06 2.31.36.png) -->
 <p><a href="https://atcoder.jp/contests/abc173">contest page</a></p>
 <h2 id="感想反省">感想&amp;反省</h2>
 <h3 id="a---payment">A - Payment</h3>
 <p>やるだけの問題。
 もう一度書きます。やるだけの問題です。</p>
 <p>…2000円きっかりで3000円だして1000円もらうプログラムを書いて1WAを頂きました。猛省。</p>
-<!-- raw HTML omitted -->
+<details><summary>コード</summary><div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python:A.py" data-lang="python:A.py">n <span style="color:#f92672">=</span> int(input())
 maisu <span style="color:#f92672">=</span> n <span style="color:#f92672">//</span> <span style="color:#ae81ff">1000</span>
 <span style="color:#66d9ef">if</span> n <span style="color:#f92672">%</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">!=</span> <span style="color:#ae81ff">0</span>:
     <span style="color:#66d9ef">print</span>((maisu <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">*</span> <span style="color:#ae81ff">1000</span> <span style="color:#f92672">-</span> n)
 <span style="color:#66d9ef">else</span>:
     <span style="color:#66d9ef">print</span>(<span style="color:#ae81ff">0</span>)
-</code></pre></div><!-- raw HTML omitted -->
+</code></pre></div></div></details>
 <h3 id="b---judge-status-summary">B - Judge Status Summary</h3>
 <p>いつものBよりはやや面倒だな、と思いつつもサクッとACしました。
 文字列はコピペして<code>[]</code>でくくったほうが早い気がしました。</p>
@@ -112,7 +112,7 @@ maisu <span style="color:#f92672">=</span> n <span style="color:#f92672">//</spa
 引数に<code>int</code>を使い、出てくるたびに+1すれば大丈夫。
 出てこなかったものも0が返ってくるので使いやすいですね。</p>
 <p><code>format</code>関数を使おうかとよぎるものの、調べる時間の無駄と思い<code>str</code>でつなげました。</p>
-<!-- raw HTML omitted -->
+<details><summary>コード</summary><div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> collections <span style="color:#f92672">import</span> defaultdict
 
 jisho <span style="color:#f92672">=</span> defaultdict(int)
@@ -126,13 +126,13 @@ kotae <span style="color:#f92672">=</span> [<span style="color:#e6db74">&#34;AC&
     k <span style="color:#f92672">=</span> kotae[i]
     <span style="color:#66d9ef">print</span>(str(k) <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; x &#34;</span> <span style="color:#f92672">+</span> str(jisho[k]))
 
-</code></pre></div><!-- raw HTML omitted -->
+</code></pre></div></div></details>
 <h3 id="c---h-and-v">C - H and V</h3>
 <p>最近のCは難しいな、と思いつつも書いてあることをやるだけ。</p>
 <p>2の累乗の全探索はbit演算を用いる方法もありますが、自分はpythonなので<code>itertools</code>を使う方法が好きです。</p>
 <p>格子の入力が文字なので<code>map(int,input().split())</code>をしないように注意。</p>
 <p>全探索の範囲を2**hではなく、hにしてしまったため微ロス。</p>
-<!-- raw HTML omitted -->
+<details><summary>コード</summary><div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python"><span style="color:#f92672">from</span> itertools <span style="color:#f92672">import</span> product
 
 h, w, k <span style="color:#f92672">=</span> map(int, input()<span style="color:#f92672">.</span>split())
@@ -168,13 +168,13 @@ ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
             ans <span style="color:#f92672">+=</span> <span style="color:#ae81ff">1</span>
 
 <span style="color:#66d9ef">print</span>(ans)
-</code></pre></div><!-- raw HTML omitted -->
+</code></pre></div></div></details>
 <h3 id="d---chat-in-a-circle">D - Chat in a Circle</h3>
 <p>難しい。
 取り敢えずn=4,5,6あたりを手元のiPadで書き出す→どうやら上から2個ずつ貪欲にとれるように配置ができそう、というお気持ちになる(未証明)。
 →提出。AC</p>
 <p>コード自体は短く書けたので満足。</p>
-<!-- raw HTML omitted -->
+<details><summary>コード</summary><div>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">n <span style="color:#f92672">=</span> int(input())
 A <span style="color:#f92672">=</span> list(map(int, input()<span style="color:#f92672">.</span>split()))
 A<span style="color:#f92672">.</span>sort(reverse<span style="color:#f92672">=</span>True)
@@ -185,7 +185,7 @@ ans <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</span>
     ans <span style="color:#f92672">+=</span> A[i <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>]
 ans <span style="color:#f92672">-=</span> A[<span style="color:#ae81ff">0</span>]
 <span style="color:#66d9ef">print</span>(ans)
-</code></pre></div><!-- raw HTML omitted -->
+</code></pre></div></div></details>
 <h3 id="e---multiplication-4">E - Multiplication 4</h3>
 <p>執筆時点で未AC。
 初手DPを考えるも制約条件から不可能と判断。
@@ -211,7 +211,7 @@ DP[i個目まで見て][j子選んだ時][今まで負の数を奇数回or偶数
 <p>コンテスト後にTwitterを見ていると、木構造だと連結成分の数がかんたんに求まるようでした(閉路がなければ簡単に求められる)。
 この方法は見たことがあったので、覚えていなかった自分が悪いです。悲しいです。
 Fの解説については<a href="https://maspypy.com/atcoder-%e5%8f%82%e5%8a%a0%e6%84%9f%e6%83%b3-2020-07-05abc-173#toc7">maspyさんのHP</a>が素晴らしいのでそちらをご参照ください。</p>
-<!-- raw HTML omitted -->
+<details><summary>コード</summary><div>
 <p>解説AC</p>
 <div class="highlight"><pre style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-python" data-lang="python">n <span style="color:#f92672">=</span> int(input())
 graph <span style="color:#f92672">=</span> [[] <span style="color:#66d9ef">for</span> _ <span style="color:#f92672">in</span> range(n)]
@@ -225,8 +225,7 @@ edge_sum <span style="color:#f92672">=</span> <span style="color:#ae81ff">0</spa
 
 dot_sum <span style="color:#f92672">=</span> n <span style="color:#f92672">*</span> (n <span style="color:#f92672">+</span> <span style="color:#ae81ff">1</span>) <span style="color:#f92672">*</span> (n <span style="color:#f92672">+</span> <span style="color:#ae81ff">2</span>) <span style="color:#f92672">//</span> <span style="color:#ae81ff">6</span>
 <span style="color:#66d9ef">print</span>(dot_sum <span style="color:#f92672">-</span> edge_sum)
-</code></pre></div><!-- raw HTML omitted -->
-
+</code></pre></div></div></details>
         </div>
 
 
@@ -333,16 +332,12 @@ dot_sum <span style="color:#f92672">=</span> n <span style="color:#f92672">*</sp
 
 </div>
         </div>
-        </div>
-<footer role="contentinfo" class="document-footer contentinfo widgets columns-1">
-
-    <aside class="widget widget_text">
-        <div class="textwidget">
-            <p>© めもらんだむ / Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/tosi29/inkblotty" target="_blank">Inkblotty</a></p>
-        </div>
-    </aside>
-</footer>
-</div>
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
     </body>
 </html>
