@@ -6,10 +6,28 @@
     <description>Recent content in Tags on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2020 20:20:39 +0900</lastBuildDate>
+    <lastBuildDate>Tue, 07 Jul 2020 10:17:37 +0900</lastBuildDate>
     
 	<atom:link href="https://nephrologist.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Anki</title>
+      <link>https://nephrologist.github.io/tags/anki/</link>
+      <pubDate>Tue, 07 Jul 2020 10:17:37 +0900</pubDate>
+      
+      <guid>https://nephrologist.github.io/tags/anki/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>English</title>
+      <link>https://nephrologist.github.io/tags/english/</link>
+      <pubDate>Tue, 07 Jul 2020 10:17:37 +0900</pubDate>
+      
+      <guid>https://nephrologist.github.io/tags/english/</guid>
+      <description></description>
+    </item>
     
     <item>
       <title>AtCoder</title>
@@ -21,11 +39,11 @@
     </item>
     
     <item>
-      <title>単門解説</title>
-      <link>https://nephrologist.github.io/tags/%E5%8D%98%E9%96%80%E8%A7%A3%E8%AA%AC/</link>
+      <title>単問解説</title>
+      <link>https://nephrologist.github.io/tags/%E5%8D%98%E5%95%8F%E8%A7%A3%E8%AA%AC/</link>
       <pubDate>Mon, 06 Jul 2020 20:20:39 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/tags/%E5%8D%98%E9%96%80%E8%A7%A3%E8%AA%AC/</guid>
+      <guid>https://nephrologist.github.io/tags/%E5%8D%98%E5%95%8F%E8%A7%A3%E8%AA%AC/</guid>
       <description></description>
     </item>
     

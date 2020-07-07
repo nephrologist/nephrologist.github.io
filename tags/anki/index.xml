@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Anki on めもらんだむ</title>
+    <link>https://nephrologist.github.io/tags/anki/</link>
+    <description>Recent content in Anki on めもらんだむ</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 07 Jul 2020 10:17:37 +0900</lastBuildDate>
+    
+	<atom:link href="https://nephrologist.github.io/tags/anki/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>History</title>
+      <link>https://nephrologist.github.io/history/</link>
+      <pubDate>Tue, 07 Jul 2020 10:17:37 +0900</pubDate>
+      
+      <guid>https://nephrologist.github.io/history/</guid>
+      <description>英語学習遍歴 自分の学習履歴をまとめておこうと思います。 英語が特に得意なわけではない、大学院生です。 要約(学習者の方へ) 読解力は受験で養ってください。 単語はAnkiを無心で回しましょう 単語に限界を感じたら、シャドウイングしましょう(Listeningに効きます) (補足)例文暗唱もいいかもしれません。(</description>
+    </item>
+    
+  </channel>
+</rss>
