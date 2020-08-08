@@ -3,6 +3,21 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nephrologist.github.io/post/</loc>
+    <lastmod>2020-08-08T12:05:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nephrologist.github.io/test2/</loc>
+    <lastmod>2020-08-08T12:05:37+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nephrologist.github.io/</loc>
+    <lastmod>2020-08-08T12:05:37+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nephrologist.github.io/tags/anki/</loc>
     <lastmod>2020-07-07T10:17:37+09:00</lastmod>
   </url>
@@ -28,17 +43,7 @@
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/post/</loc>
-    <lastmod>2020-07-07T10:17:37+09:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nephrologist.github.io/tags/</loc>
-    <lastmod>2020-07-07T10:17:37+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nephrologist.github.io/</loc>
     <lastmod>2020-07-07T10:17:37+09:00</lastmod>
   </url>
   
@@ -75,6 +80,11 @@
   <url>
     <loc>https://nephrologist.github.io/about/</loc>
     <lastmod>2020-06-26T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nephrologist.github.io/test/</loc>
+    <lastmod>2020-06-25T13:13:22+09:00</lastmod>
   </url>
   
   <url>

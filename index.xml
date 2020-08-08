@@ -6,10 +6,19 @@
     <description>Recent content on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2020 10:17:37 +0900</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2020 12:05:37 +0900</lastBuildDate>
     
 	<atom:link href="https://nephrologist.github.io/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Test2</title>
+      <link>https://nephrologist.github.io/test2/</link>
+      <pubDate>Sat, 08 Aug 2020 12:05:37 +0900</pubDate>
+      
+      <guid>https://nephrologist.github.io/test2/</guid>
+      <description>Test</description>
+    </item>
     
     <item>
       <title>History</title>
@@ -45,6 +54,16 @@
       
       <guid>https://nephrologist.github.io/about/</guid>
       <description>Biography Name: Toshio Competitive Programing AtCoder: nephrologist yukicoder: nephrologist English Scores TOEFL: about 90 IELTS: not yet If you have any comments, please use twitter(@Toshio256).</description>
+    </item>
+    
+    <item>
+      <title>Test</title>
+      <link>https://nephrologist.github.io/test/</link>
+      <pubDate>Thu, 25 Jun 2020 13:13:22 +0900</pubDate>
+      
+      <guid>https://nephrologist.github.io/test/</guid>
+      <description>Test This is a test. This line is blue.
+This line might be a bigger one.  one two three        one  s = input() if s.lower() == s: print(&amp;quot;a&amp;quot;) else: print(&amp;quot;A&amp;quot;) </description>
     </item>
     
     <item>

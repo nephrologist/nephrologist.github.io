@@ -34,10 +34,14 @@
         <nav role="navigation" aria-label="Primary Navigation">
 
             <ul class="menu">
+                <li class="menu-item "><a class="menu__link" href="/">HOME</a></li>
                 <li class="menu-item "><a class="menu__link" href="/about/">ABOUT</a></li>
+                <li class="menu-item "><a class="menu__link" href="/tags/">TAGS</a></li>
             </ul>
             <select onChange="location.href=value;">
+                <option value="/" class="menu-item menu-item-type-custom menu-item-object-custom" >HOME</option>
                 <option value="/about/" class="menu-item menu-item-type-custom menu-item-object-custom" >ABOUT</option>
+                <option value="/tags/" class="menu-item menu-item-type-custom menu-item-object-custom" >TAGS</option>
             </select>
         </nav>
     </header>
@@ -82,7 +86,7 @@
         <div class="post-content">
             <h2 id="test">Test</h2>
 <p>This is a test.
-<!-- raw HTML omitted -->This line is blue.<!-- raw HTML omitted --></p>
+<font color="Blue">This line is blue.</font></p>
 <h1 id="this-line-might-be-a-bigger-one">This line might be a bigger one.</h1>
 <ul>
 <li>one</li>
@@ -138,10 +142,12 @@ else:
         <div class="nav-links">
             <div class="nav-previous">
                 
+                <a class="previous" href="https://nephrologist.github.io/check_point/"> Check_point</a>
+                
             </div>
             <div class="nav-next">
                 
-                <a class="next" href="https://nephrologist.github.io/hello/"> Hello</a>
+                <a class="next" href="https://nephrologist.github.io/abc173/"> ABC173</a>
                 
             </div>
         </div>
@@ -161,13 +167,17 @@ else:
 </aside>
     <aside class="widget widget_categories">
         <h2>Categories</h2>
-        <ul class="widget__list">
+        <ul class="widget__list"><li class="cat-item cat-item-2">
+                <a href="https://nephrologist.github.io/categories/english/">English (1)</a>
+            </li><li class="cat-item cat-item-2">
+                <a href="https://nephrologist.github.io/categories/python/">python (2)</a>
+            </li>
         </ul>
     </aside>
 
     <aside class="widget widget_tag_cloud">
         <h2>Tags</h2>
-        <div class="tagcloud">
+        <div class="tagcloud"><a class="tag-cloud-link" href="https://nephrologist.github.io/tags/anki/" title="anki" style="font-size: 12pt;">Anki</a>&emsp;<a class="tag-cloud-link" href="https://nephrologist.github.io/tags/atcoder/" title="atcoder" style="font-size: 12pt;">AtCoder</a>&emsp;<a class="tag-cloud-link" href="https://nephrologist.github.io/tags/contest/" title="contest" style="font-size: 12pt;">contest</a>&emsp;<a class="tag-cloud-link" href="https://nephrologist.github.io/tags/english/" title="english" style="font-size: 12pt;">English</a>&emsp;<a class="tag-cloud-link" href="https://nephrologist.github.io/tags/%E5%8D%98%E5%95%8F%E8%A7%A3%E8%AA%AC/" title="単問解説" style="font-size: 12pt;">単問解説</a>&emsp;
         </div>
     </aside>
 
@@ -175,10 +185,22 @@ else:
         <h2>Recent Posts</h2>
         <ul>
             <li>
-                <a href="/hello/">Hello</a>
+                <a href="/test2/">Test2</a>
+            </li>
+            <li>
+                <a href="/history/">History</a>
+            </li>
+            <li>
+                <a href="/abc173e/">ABC173E</a>
+            </li>
+            <li>
+                <a href="/abc173/">ABC173</a>
             </li>
             <li>
                 <a href="/test/">Test</a>
+            </li>
+            <li>
+                <a href="/check_point/">Check_point</a>
             </li>
         </ul>
     </aside>
@@ -191,16 +213,12 @@ else:
 
 </div>
         </div>
-        </div>
-<footer role="contentinfo" class="document-footer contentinfo widgets columns-1">
-
-    <aside class="widget widget_text">
-        <div class="textwidget">
-            <p>© めもらんだむ / Powered by <a href="https://gohugo.io" target="_blank">Hugo</a> with theme <a href="https://github.com/tosi29/inkblotty" target="_blank">Inkblotty</a></p>
-        </div>
-    </aside>
-</footer>
-</div>
+        <script type="text/x-mathjax-config">
+    MathJax.Hub.Config({
+        tex2jax: {inlineMath: [['$','$'], ['\\(','\\)']]}
+    });
+</script>
+<script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 
     </body>
 </html>
