@@ -6,6 +6,7 @@
     <description>Recent content in Posts on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
+    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Sat, 08 Aug 2020 12:05:37 +0900</lastBuildDate>
     
 	<atom:link href="https://nephrologist.github.io/post/index.xml" rel="self" type="application/rss+xml" />
@@ -13,57 +14,56 @@
     
     <item>
       <title>Test2</title>
-      <link>https://nephrologist.github.io/test2/</link>
+      <link>https://nephrologist.github.io/post/test2/test2/</link>
       <pubDate>Sat, 08 Aug 2020 12:05:37 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/test2/</guid>
+      <guid>https://nephrologist.github.io/post/test2/test2/</guid>
       <description>Test</description>
     </item>
     
     <item>
       <title>History</title>
-      <link>https://nephrologist.github.io/history/</link>
+      <link>https://nephrologist.github.io/post/english/history/</link>
       <pubDate>Tue, 07 Jul 2020 10:17:37 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/history/</guid>
-      <description>英語学習遍歴 自分の学習履歴をまとめておこうと思います。 英語が特に得意なわけではない、大学院生です。 要約(学習者の方へ) 読解力は受験で養ってください。 単語はAnkiを無心で回しましょう 単語に限界を感じたら、シャドウイングしましょう(Listeningに効きます) (補足)例文暗唱もいいかもしれません。(</description>
+      <guid>https://nephrologist.github.io/post/english/history/</guid>
+      <description>英語学習遍歴 自分の学習履歴をまとめておこうと思います。 英語が特に得意なわけではない、大学院生です。 要約(学習者の方へ) 読解力は受験で養ってく</description>
     </item>
     
     <item>
       <title>ABC173E</title>
-      <link>https://nephrologist.github.io/abc173e/</link>
+      <link>https://nephrologist.github.io/post/abc/abc173e/abc173e/</link>
       <pubDate>Mon, 06 Jul 2020 20:20:39 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/abc173e/</guid>
-      <description>問題E - Multiplication 4 (概略) 長さnの配列Aが与えられて、その中から要素をk個選んだときに積を最大化したい。そのようなときの積の値を$mod=10^9+7$で割った値を求めよ。 $$1\leqq k,n\leqq 2×10^5, |A_i| \leqq 10^9$$ 問題URL 解説 本番の思考 一見すると大きい方から貪欲にk個取れば終わりそう。 でも実は0が入ると0になってしまう さ</description>
+      <guid>https://nephrologist.github.io/post/abc/abc173e/abc173e/</guid>
+      <description>問題E - Multiplication 4 (概略) 長さnの配列Aが与えられて、その中から要素をk個選んだときに積を最大化したい。そのようなときの積の値を$mod=10^9</description>
     </item>
     
     <item>
       <title>ABC173</title>
-      <link>https://nephrologist.github.io/abc173/</link>
+      <link>https://nephrologist.github.io/post/abc/abc173/abc173/</link>
       <pubDate>Mon, 06 Jul 2020 01:31:29 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/abc173/</guid>
-      <description>成績 ABCDの4完で1475位 R1255→1268 画像がまだうまく入れられない 折りたたみもうまく表示されない contest page 感想&amp;amp;反省 A - Payment やるだけの問題。 もう一度書きます。やるだけの問題です。 …2000円きっかりで3000円だして1000円もらうプログラムを書いて1WAを頂きました。猛省。 コード n = int(input())</description>
+      <guid>https://nephrologist.github.io/post/abc/abc173/abc173/</guid>
+      <description>成績 ABCDの4完で1475位 R1255→1268 画像がまだうまく入れられない 折りたたみもうまく表示されない contest page 感想&amp;amp;反省 A - Payment やる</description>
     </item>
     
     <item>
       <title>Test</title>
-      <link>https://nephrologist.github.io/test/</link>
+      <link>https://nephrologist.github.io/post/test/</link>
       <pubDate>Thu, 25 Jun 2020 13:13:22 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/test/</guid>
-      <description>Test This is a test. This line is blue.
-This line might be a bigger one.  one two three        one  s = input() if s.lower() == s: print(&amp;quot;a&amp;quot;) else: print(&amp;quot;A&amp;quot;) </description>
+      <guid>https://nephrologist.github.io/post/test/</guid>
+      <description>Test This is a test. This line is blue.This line might be a bigger one.  one two three        one  1s = input() 2 3if s.lower() == s: 4 print(&amp;#34;a&amp;#34;) 5else: 6 print(&amp;#34;A&amp;#34;) </description>
     </item>
     
     <item>
       <title>Check_point</title>
-      <link>https://nephrologist.github.io/check_point/</link>
+      <link>https://nephrologist.github.io/post/check_point/check_point/</link>
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://nephrologist.github.io/check_point/</guid>
-      <description>コンテスト前確認事項 iPadの用意 飲み物の用意 visual studio codeのpython環境が生きているか 提出用ファイルの作成 参加登録 確認事項 typoしていないか &amp;ldquo;+=&amp;rdquo;, &amp;ldquo;==&amp;rdquo;, &amp;ldquo;=&amp;quot;は、やりがち カギカッコはちゃんと閉じているか 制約確認しているか nが小さければ全探索etc</description>
+      <guid>https://nephrologist.github.io/post/check_point/check_point/</guid>
+      <description>コンテスト前確認事項 iPadの用意 飲み物の用意 visual studio codeのpython環境が生きているか 提出用ファイルの作成 参加登録 確認事項 typoしてい</description>
     </item>
     
   </channel>

@@ -3,17 +3,17 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://nephrologist.github.io/</loc>
+    <lastmod>2020-08-08T12:05:37+09:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nephrologist.github.io/post/</loc>
     <lastmod>2020-08-08T12:05:37+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/test2/</loc>
-    <lastmod>2020-08-08T12:05:37+09:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nephrologist.github.io/</loc>
+    <loc>https://nephrologist.github.io/post/test2/test2/</loc>
     <lastmod>2020-08-08T12:05:37+09:00</lastmod>
   </url>
   
@@ -38,7 +38,7 @@
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/history/</loc>
+    <loc>https://nephrologist.github.io/post/english/history/</loc>
     <lastmod>2020-07-07T10:17:37+09:00</lastmod>
   </url>
   
@@ -48,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/abc173e/</loc>
+    <loc>https://nephrologist.github.io/post/abc/abc173e/abc173e/</loc>
     <lastmod>2020-07-06T20:20:39+09:00</lastmod>
   </url>
   
@@ -68,7 +68,7 @@
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/abc173/</loc>
+    <loc>https://nephrologist.github.io/post/abc/abc173/abc173/</loc>
     <lastmod>2020-07-06T01:31:29+09:00</lastmod>
   </url>
   
@@ -78,22 +78,27 @@
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/about/</loc>
-    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nephrologist.github.io/test/</loc>
+    <loc>https://nephrologist.github.io/post/test/</loc>
     <lastmod>2020-06-25T13:13:22+09:00</lastmod>
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/check_point/</loc>
+    <loc>https://nephrologist.github.io/post/check_point/check_point/</loc>
     <lastmod>2020-01-01T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://nephrologist.github.io/archives/</loc>
+    <lastmod>2019-05-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nephrologist.github.io/about/</loc>
+    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nephrologist.github.io/tags/index/</loc>
   </url>
   
 </urlset>
