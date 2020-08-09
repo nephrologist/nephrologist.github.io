@@ -13,7 +13,7 @@
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/post/test2/test2/</loc>
+    <loc>https://nephrologist.github.io/post/test2/</loc>
     <lastmod>2020-08-08T12:05:37+09:00</lastmod>
   </url>
   
@@ -48,7 +48,7 @@
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/post/abc/abc173e/abc173e/</loc>
+    <loc>https://nephrologist.github.io/post/abc/abc173e/</loc>
     <lastmod>2020-07-06T20:20:39+09:00</lastmod>
   </url>
   
@@ -68,13 +68,18 @@
   </url>
   
   <url>
-    <loc>https://nephrologist.github.io/post/abc/abc173/abc173/</loc>
+    <loc>https://nephrologist.github.io/post/abc/abc173/</loc>
     <lastmod>2020-07-06T01:31:29+09:00</lastmod>
   </url>
   
   <url>
     <loc>https://nephrologist.github.io/tags/contest/</loc>
     <lastmod>2020-07-06T01:31:29+09:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nephrologist.github.io/about/</loc>
+    <lastmod>2020-06-26T00:00:00+00:00</lastmod>
   </url>
   
   <url>
@@ -90,11 +95,6 @@
   <url>
     <loc>https://nephrologist.github.io/archives/</loc>
     <lastmod>2019-05-28T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://nephrologist.github.io/about/</loc>
-    <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url>
   
   <url>

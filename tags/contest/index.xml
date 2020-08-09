@@ -6,7 +6,6 @@
     <description>Recent content in contest on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Mon, 06 Jul 2020 01:31:29 +0900</lastBuildDate>
     
 	<atom:link href="https://nephrologist.github.io/tags/contest/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +13,10 @@
     
     <item>
       <title>ABC173</title>
-      <link>https://nephrologist.github.io/post/abc/abc173/abc173/</link>
+      <link>https://nephrologist.github.io/post/abc/abc173/</link>
       <pubDate>Mon, 06 Jul 2020 01:31:29 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/post/abc/abc173/abc173/</guid>
+      <guid>https://nephrologist.github.io/post/abc/abc173/</guid>
       <description>成績 ABCDの4完で1475位 R1255→1268 画像がまだうまく入れられない 折りたたみもうまく表示されない contest page 感想&amp;amp;反省 A - Payment やる</description>
     </item>
     

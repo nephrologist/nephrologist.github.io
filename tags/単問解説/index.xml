@@ -6,7 +6,6 @@
     <description>Recent content in 単問解説 on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <copyright>Copyright © 2008–2018, Steve Francia and the Hugo Authors; all rights reserved.</copyright>
     <lastBuildDate>Mon, 06 Jul 2020 20:20:39 +0900</lastBuildDate>
     
 	<atom:link href="https://nephrologist.github.io/tags/%E5%8D%98%E5%95%8F%E8%A7%A3%E8%AA%AC/index.xml" rel="self" type="application/rss+xml" />
@@ -14,10 +13,10 @@
     
     <item>
       <title>ABC173E</title>
-      <link>https://nephrologist.github.io/post/abc/abc173e/abc173e/</link>
+      <link>https://nephrologist.github.io/post/abc/abc173e/</link>
       <pubDate>Mon, 06 Jul 2020 20:20:39 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/post/abc/abc173e/abc173e/</guid>
+      <guid>https://nephrologist.github.io/post/abc/abc173e/</guid>
       <description>問題E - Multiplication 4 (概略) 長さnの配列Aが与えられて、その中から要素をk個選んだときに積を最大化したい。そのようなときの積の値を$mod=10^9</description>
     </item>
     
