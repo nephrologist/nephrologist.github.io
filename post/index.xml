@@ -6,18 +6,27 @@
     <description>Recent content in Posts on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 07 Jul 2020 10:17:37 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 02:00:33 +0900</lastBuildDate>
     
 	<atom:link href="https://nephrologist.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
-      <title>History</title>
-      <link>https://nephrologist.github.io/post/english/history/</link>
-      <pubDate>Tue, 07 Jul 2020 10:17:37 +0900</pubDate>
+      <title>Abc178</title>
+      <link>https://nephrologist.github.io/post/abc/abc178/</link>
+      <pubDate>Mon, 14 Sep 2020 02:00:33 +0900</pubDate>
       
-      <guid>https://nephrologist.github.io/post/english/history/</guid>
-      <description>英語学習遍歴 自分の学習履歴をまとめておこうと思います。 英語が特に得意なわけではない、大学院生です。 要約(学習者の方へ) 読解力は受験で養ってく</description>
+      <guid>https://nephrologist.github.io/post/abc/abc178/</guid>
+      <description>成績 contest page 感想&amp;amp;反省 A - Not 久しぶりにシンプルなAで、驚きました。 自分はstrで入力をとって0かどうかで判断しました。 bool値で否定す</description>
+    </item>
+    
+    <item>
+      <title>Python_tips</title>
+      <link>https://nephrologist.github.io/post/python_tips/</link>
+      <pubDate>Mon, 14 Sep 2020 01:35:21 +0900</pubDate>
+      
+      <guid>https://nephrologist.github.io/post/python_tips/</guid>
+      <description>自分用memo Python Tips 配列の長さにdummy変数は不要 len(A)はO(1) &#39; &#39;.join(A)は速い print絡みの細かい話 1# A=[a_1,a_2,,,,a_n] 2print(&amp;#39; &amp;#39;.join(map(str,A))) # this is the faster</description>
     </item>
     
     <item>

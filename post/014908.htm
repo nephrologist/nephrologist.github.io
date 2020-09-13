@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<!-- saved from url=(0014)about:internet -->
+<html lang="ja" data-admin-domain="//blog.hatena.ne.jp" data-admin-origin="https://blog.hatena.ne.jp" data-author="math314" data-avail-langs="ja en" data-blog="math314.hateblo.jp" data-blog-host="math314.hateblo.jp" data-blog-is-public="1" data-blog-name="math314のブログ" data-blog-owner="math314" data-blog-uri="https://math314.hateblo.jp/" data-blog-uuid="12921228815714385016" data-blogs-uri-base="https://math314.hateblo.jp" data-brand="hatenablog" data-data-layer="{&quot;hatenablog&quot;:{&quot;router_type&quot;:&quot;blogs&quot;,&quot;brand&quot;:&quot;hatenablog&quot;,&quot;pro&quot;:&quot;free&quot;,&quot;blog&quot;:{&quot;lang&quot;:&quot;ja&quot;,&quot;force_pc_view&quot;:&quot;false&quot;,&quot;enable_keyword_link&quot;:&quot;true&quot;,&quot;enable_ads&quot;:&quot;true&quot;,&quot;content_seems_japanese&quot;:&quot;true&quot;,&quot;is_responsive_view&quot;:&quot;false&quot;,&quot;entry_show_footer_related_entries&quot;:&quot;true&quot;,&quot;disable_ads&quot;:&quot;&quot;,&quot;name&quot;:&quot;math314\u306e\u30d6\u30ed\u30b0&quot;,&quot;is_public&quot;:&quot;true&quot;,&quot;is_sleeping&quot;:&quot;true&quot;,&quot;owner_name&quot;:&quot;math314&quot;,&quot;uri&quot;:&quot;https://math314.hateblo.jp/&quot;},&quot;analytics&quot;:{&quot;brand_property_id&quot;:&quot;&quot;,&quot;separated_property_id&quot;:&quot;UA-29716941-22&quot;,&quot;property_id&quot;:&quot;&quot;,&quot;non_sampling_property_id&quot;:&quot;&quot;},&quot;page_id&quot;:&quot;entry&quot;,&quot;permalink_entry&quot;:{&quot;hour&quot;:&quot;1&quot;,&quot;categories&quot;:&quot;&quot;,&quot;author_name&quot;:&quot;math314&quot;,&quot;title&quot;:&quot;\u4efb\u610fmod\u3067\u306e\u7573\u307f\u8fbc\u307f\u6f14\u7b97\u3092O(n log(n))\u3067&quot;,&quot;uri&quot;:&quot;https://math314.hateblo.jp/entry/2015/05/07/014908&quot;,&quot;date&quot;:&quot;2015-05-07&quot;},&quot;admin&quot;:{}}}" data-device="pc" data-dont-recommend-pro="false" data-global-domain="https://hatenablog.com" data-globalheader-color="b" data-globalheader-type="pc" data-has-touch-view="1" data-help-url="https://help.hatenablog.com" data-page="entry" data-parts-domain="https://hatenablog-parts.com" data-plus-available="" data-pro="false" data-router-type="blogs" data-sentry-dsn="https://03a33e4781a24cf2885099fed222b56d@sentry.io/1195218" data-sentry-environment="production" data-sentry-sample-rate="0.1" data-static-domain="https://cdn.blog.st-hatena.com" data-version="d7eb8f71237eb256287b2d1ae4bf55df" itemscope="" itemtype="http://schema.org/Article" data-initial-state="{}"><head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  
+
+  
+
+
+
+  
+
+  <meta name="robots" content="max-image-preview:large">
+
+
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=7; IE=9; IE=10; IE=11">
+  <title>任意modでの畳み込み演算をO(n log(n))で - math314のブログ</title>
+
+  
+  <link rel="canonical" href="https://math314.hateblo.jp/entry/2015/05/07/014908">
+
+
+
+  
+  
+
+<meta itemprop="name" content="任意modでの畳み込み演算をO(n log(n))で - math314のブログ">
+
+  <meta itemprop="image" content="https://cdn.blog.st-hatena.com/images/theme/og-image-1500.png">
+
+
+  <meta property="og:title" content="任意modでの畳み込み演算をO(n log(n))で - math314のブログ">
+<meta property="og:type" content="article">
+  <meta property="og:url" content="https://math314.hateblo.jp/entry/2015/05/07/014908">
+
+  <meta property="og:image" content="https://ogimage.blog.st-hatena.com/12921228815714385016/8454420450093716058/1430939877">
+
+<meta property="og:image:alt" content="任意modでの畳み込み演算をO(n log(n))で - math314のブログ">
+    <meta property="og:description" content="http://misawa.github.io/other/fast_kitamasa_method.html を見て刺激されたので書いた． 畳み込み演算？ 任意modでの畳み込み演算 中で使われてる技術達 c++のコード コードと原理の説明をちょっとだけ載せています． コードだけ欲しい人は https://gist.github.com/math314/6a08301b8b75b8172798 をどうぞ． fast_int32mod_convolution を使うとint32の任意のmodが取れます． 実はまだverifyしてない．">
+<meta property="og:site_name" content="math314のブログ">
+
+  <meta property="article:published_time" content="1430930948">
+
+      <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:image" content="https://ogimage.blog.st-hatena.com/12921228815714385016/8454420450093716058/1430939877">  <meta name="twitter:title" content="任意modでの畳み込み演算をO(n log(n))で - math314のブログ">    <meta name="twitter:description" content="http://misawa.github.io/other/fast_kitamasa_method.html を見て刺激されたので書いた． 畳み込み演算？ 任意modでの畳み込み演算 中で使われてる技術達 c++のコード コードと原理の説明をちょっとだけ載せています． コードだけ欲しい人は https://gist.…">  <meta name="twitter:app:name:iphone" content="はてなブログアプリ">
+  <meta name="twitter:app:id:iphone" content="583299321">
+  <meta name="twitter:app:url:iphone" content="hatenablog:///open?uri=https%3A%2F%2Fmath314.hateblo.jp%2Fentry%2F2015%2F05%2F07%2F014908">
+  
+    <meta name="description" content="http://misawa.github.io/other/fast_kitamasa_method.html を見て刺激されたので書いた． 畳み込み演算？ 任意modでの畳み込み演算 中で使われてる技術達 c++のコード コードと原理の説明をちょっとだけ載せています． コードだけ欲しい人は https://gist.github.com/math314/6a08301b8b75b8172798 をどうぞ． fast_int32mod_convolution を使うとint32の任意のmodが取れます． 実はまだverifyしてない．">
+
+
+  
+<script async="" src="./014908_files/gtm.js"></script><script id="embed-gtm-data-layer-loader" data-data-layer-page-specific="{&quot;hatenablog&quot;:{&quot;blogs_permalink&quot;:{&quot;blog_hide_afc_func&quot;:&quot;false&quot;,&quot;blog_struct_hide_afc&quot;:&quot;false&quot;,&quot;blog_afc_issued&quot;:&quot;false&quot;,&quot;blog_hide_afc_field&quot;:&quot;false&quot;,&quot;entry_afc_issued&quot;:&quot;false&quot;,&quot;is_blog_sleeping&quot;:&quot;true&quot;,&quot;is_author_pro&quot;:&quot;false&quot;,&quot;has_related_entries_with_elasticsearch&quot;:&quot;true&quot;,&quot;brand_hide_afc&quot;:&quot;false&quot;}}}">
+(function() {
+  function loadDataLayer(elem, attrName) {
+    if (!elem) { return {}; }
+    var json = elem.getAttribute(attrName);
+    if (!json) { return {}; }
+    return JSON.parse(json);
+  }
+
+  var globalVariables = loadDataLayer(
+    document.documentElement,
+    'data-data-layer'
+  );
+  var pageSpecificVariables = loadDataLayer(
+    document.getElementById('embed-gtm-data-layer-loader'),
+    'data-data-layer-page-specific'
+  );
+
+  var variables = [globalVariables, pageSpecificVariables];
+
+  if (!window.dataLayer) {
+    window.dataLayer = [];
+  }
+
+  for (var i = 0; i < variables.length; i++) {
+    window.dataLayer.push(variables[i]);
+  }
+})();
+</script>
+
+<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-P4CXTW');</script>
+<!-- End Google Tag Manager -->
+
+
+
+
+  <link rel="shortcut icon" href="https://math314.hateblo.jp/favicon">
+<link rel="apple-touch-icon" href="https://cdn.blog.st-hatena.com/images/touch-icon-iphone-retina.png">
+<link rel="icon" sizes="192x192" href="https://cdn.blog.st-hatena.com/images/common/meta-icon-global.png">
+
+  
+
+<link rel="alternate" type="application/atom+xml" title="Atom" href="https://math314.hateblo.jp/feed">
+<link rel="alternate" type="application/rss+xml" title="RSS2.0" href="https://math314.hateblo.jp/rss">
+<link rel="alternate" type="application/json+oembed" href="https://hatenablog.com/oembed?url=https%3A%2F%2Fmath314.hateblo.jp%2Fentry%2F2015%2F05%2F07%2F014908&amp;format=json" title="oEmbed Profile of 任意modでの畳み込み演算をO(n log(n))で">
+<link rel="alternate" type="text/xml+oembed" href="https://hatenablog.com/oembed?url=https%3A%2F%2Fmath314.hateblo.jp%2Fentry%2F2015%2F05%2F07%2F014908&amp;format=xml" title="oEmbed Profile of 任意modでの畳み込み演算をO(n log(n))で">
+  
+  <link rel="author" href="http://www.hatena.ne.jp/math314/">
+
+  
+
+
+  
+    <link rel="stylesheet" type="text/css" href="./014908_files/blog.css">
+
+    
+  <link rel="stylesheet" type="text/css" href="./014908_files/8494f0feaebc0ace0b66488e4043fc157004dc22">
+  
+  
+
+  
+
+  
+<script> </script></head></html>

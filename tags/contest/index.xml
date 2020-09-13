@@ -6,10 +6,19 @@
     <description>Recent content in contest on めもらんだむ</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 06 Jul 2020 01:31:29 +0900</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2020 02:00:33 +0900</lastBuildDate>
     
 	<atom:link href="https://nephrologist.github.io/tags/contest/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Abc178</title>
+      <link>https://nephrologist.github.io/post/abc/abc178/</link>
+      <pubDate>Mon, 14 Sep 2020 02:00:33 +0900</pubDate>
+      
+      <guid>https://nephrologist.github.io/post/abc/abc178/</guid>
+      <description>成績 contest page 感想&amp;amp;反省 A - Not 久しぶりにシンプルなAで、驚きました。 自分はstrで入力をとって0かどうかで判断しました。 bool値で否定す</description>
+    </item>
     
     <item>
       <title>ABC173</title>
